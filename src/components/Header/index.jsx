@@ -20,16 +20,16 @@ const Header = () => {
         {/* Logo */}
         <Link
           to="/"
-          className="text-red-500 font-[900] text-2xl font-mono md:text-3xl"
+          className="text-red-500 font-[900] text-xl sm:text-3xl font-mono"
         >
           ThunkSepeti
         </Link>
 
-        <div className="flex gap-5">
+        <div className="flex gap-5 ">
           <Link to="/" className="flex items-center gap-1 hover:underline">
-           Yakınınızda {restaurants.length}
+           <span className="hidden sm:block">Yakınınızda</span> {restaurants.length}
             <IoRestaurant className="text-red-500" />
-            <span>Restoran var</span>
+            <span className="hidden sm:block">Restoran var</span>
           </Link>
 
           <button className="button">Giriş Yap</button>

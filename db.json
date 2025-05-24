@@ -433,22 +433,5 @@
       "isPopular": false
     }
   ],
-  "cart": [
-    {
-      "id": "2",
-      "title": "Margarita Pizza",
-      "category": "Pizza",
-      "price": 12.99,
-      "photo": "https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      "amount": 1
-    },
-    {
-      "id": "111",
-      "title": "Mevsim Salata",
-      "category": "Salatalar",
-      "price": 7.99,
-      "photo": "https://www.tasocakfirin.com/image/cache/catalog/products_2021/Mevsim-Salata-1000x1000.jpg",
-      "amount": 1
-    }
-  ]
+  "cart": []
 }
